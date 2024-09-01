@@ -6,6 +6,6 @@ public class TipeDataString {
         String fullName = firstName + " " + lastName;
         System.out.println(fullName.toUpperCase());
 
-        System.out.println(fullName.contains("panjaitan"));
+        System.out.println(fullName);
     }
 }

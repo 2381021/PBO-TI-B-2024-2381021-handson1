@@ -6,7 +6,7 @@ public class TipeDataNumber {
         long tipeDataLong = 10L;
 
         float tipeDataFLoat = 4.4F;
-        double tipeDataDouble = 5.5D;
+        double tipeDataDouble = 5.5;
 
         int decimalInt = 20;
         int hexDecimal = 0xFF;

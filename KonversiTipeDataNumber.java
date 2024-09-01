@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class KonversiTipeDataNumber {
     public static void main(String[] args) {
 
@@ -12,6 +14,12 @@ public class KonversiTipeDataNumber {
 
         int tipeDataInteger = -129;
         byte tipeDataByte2 = (byte) tipeDataInteger;
+
         System.out.println(tipeDataByte2);
+        String firstName, lastName;
+        firstName = "Jeremy";
+        lastName = "Panjaitan";
+
+        System.out.printf("%s %s", firstName, lastName);
     }
 }
